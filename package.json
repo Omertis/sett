@@ -24,7 +24,10 @@
     "request": "^2.85.0",
     "table": "^4.0.3",
     "youtube-info": "^1.2.0",
-    "ytdl-core": "^0.20.2"
+    "ytdl-core": "^0.20.2",
+ "querystring": "^0.2.0",
+    "iconv-lite": "^0.4.23",
+    "iso-639-1": "^2.0.3"
   },
   "engines": {
     "node": "8.x"
