@@ -176,7 +176,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
   
-  if(message.content.startsWith(prefix + 'mute')) {
+  if(message.content.startsWith(prefix + 'mude')) {
     var men = message.mentions.users.first();
     if(!men) return message.channel.send('**Mention someone please**')
     message.channel.send(`**Are you sure that you want to mute [ ${men} ] ?**`)
@@ -207,7 +207,7 @@ client.on('message', message => {
 
 client.on('message', message => {
   
-  if(message.content.startsWith(prefix + 'unmute')) {
+  if(message.content.startsWith(prefix + 'unmde')) {
     var men = message.mentions.users.first();
     if(!men) return message.channel.send('**Mention someone please**')
     message.channel.send(`**Are you sure that you want to mute [ ${men} ] ?**`)
