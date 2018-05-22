@@ -23,7 +23,7 @@ client.on('guildMemberAdd', member => {
   if (member.user.bot) return;
   var Canvas = require('canvas')
   var jimp = require('jimp')
-  const w = ['./img/bull1.png'];
+  const w = ['./img/bull1i.png'];
           let Image = Canvas.Image,
               canvas = new Canvas(749, 198),
               ctx = canvas.getContext('2d');
@@ -52,19 +52,19 @@ client.on('guildMemberAdd', member => {
                           if (err) return console.log(err);
                           ctx.font = '35px agent_orange';
                           ctx.fontSize = '40px';
-                          ctx.fillStyle = "#34495E";
+                          ctx.fillStyle = "#FFD700";
                           ctx.textAlign = "center";
                           ctx.fillText(" Welcome to " + member.guild.name , 300, 60);
   
                           //ur name
                           ctx.font = '40px Impact';
                           ctx.fontSize = '48px';
-                          ctx.fillStyle = "#566573";
+                          ctx.fillStyle = "#FFD700";
                           ctx.textAlign = "center";
                           ctx.fillText(member.user.username, 300, 110);
    ctx.font = '30px Impact';
                         ctx.fontSize = '20px';
-                        ctx.fillStyle = "#2C3E50";
+                        ctx.fillStyle = "#FFD700";
                         ctx.textAlign = "center";
                         ctx.fillText("Member Number" + member.guild.memberCount, 300, 150);
 
